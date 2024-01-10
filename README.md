@@ -1,5 +1,7 @@
 # Nuclear Engineer
 
+I am a motivated student at Wrocław University of Science and Technology mostly interesd in applications of probaility theory and stochastic calculus in particle transport equations.
+
 ## Education
 
 - M.S Applied Mathematics | Wrocław University of Science and Technology (Poland) | NAWA scholarship takeholder
@@ -10,19 +12,16 @@
 
 ### Software Developer at Brazilian National Agency for Petroleum, Natural Gas and Biofuels (_2022_ - _2023_)
 
-- Identification of Two-Phase Flow Pattern
+Description: Solution of Conservation Equations using Riemann Solvers in C++ using parallel paradigm
 
-- Transient Gas-Liquid Flow modeling
+$$ \frac{\partial U}{\partial t} + \frac{\partial F(U)}{\partial x} =0 $$
 
-- Numerical methods for Partial Differential Equations
+where 
 
-- Riemann Solvers for Conservation Equations (Isothermal and Non-Isothermal models for Two-Phase Flow)
+$$ U = \begin{bmatrix} u_1 \\ u_2 \\ \vdots \\ u_m\end{bmatrix}, \quad F = \begin{bmatrix} f_1 \\ f_2 \\ \vdots \\ f_m\end{bmatrix} $$
 
-- High Resolution Schemes(ROE's Scheme) 
+![BranchingTree](/fig/shock_wave.svg)
 
-- Spectral Methods for Fluid Dynamics
-
-- C++ mathematical model implementation using parallel computing
 
 ### Quantitative Research Intern at BOCOM BBM bank (_2021_ - _2022_)
 
@@ -46,7 +45,14 @@
 
 - The Generator Project
 
-![](/fig/branching_tree.jpeg)
+The Generator Project is a set of Neutron Monte Carlo Branching algorithm for simulation of 
+
+![BranchingTree](/fig/branching_tree.jpeg)
+
+- Algorithm implementations of Feller's Book
+
+
+![RuinProblem](/fig/RuinProblem.png)
 
 
 ## Publications
@@ -58,4 +64,3 @@
  - Portuguese(_Native_)
  - French(_B1_)
  - English(_C1 - 7.0 IELTS_)
-
