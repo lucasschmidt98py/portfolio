@@ -46,7 +46,7 @@
 
 - The Generator Project
 
-![](/fig/critpop.png) ![](/fig/p0TC_sup.png)
+![](/fig/branching_tree.jpeg)
 
 
 ## Publications
