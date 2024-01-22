@@ -1,26 +1,30 @@
 # Nuclear Engineer
 
-I am a motivated student at Wrocław University of Science and Technology mostly interesd in applications of probaility theory and stochastic calculus in particle transport equations.
+I am a motivated student of Applied Mathematics at Wrocław University of Science and Technology mostly interesd in applications of probability theory and stochastic calculus in particle transport equations.
 
 ## Education
 
-- M.S Applied Mathematics | Wrocław University of Science and Technology (Poland) | NAWA scholarship takeholder
+- M.S Applied Mathematics | Wrocław University of Science and Technology (Poland) | NAWA scholarship holder
 
 - B.S Nuclear Engineering | Federal University of Rio de Janeiro (Brazil)
 
 ## Work Experience
 
-### Software Developer at Brazilian National Agency for Petroleum, Natural Gas and Biofuels (_2022_ - _2023_)
+### Software Developer at Brazilian National Agency for Petroleum, Natural Gas and Biofuels (_2022_ - _2023_) (_Python,_ _C/C++_)
 
 Description: Solution of Conservation Equations using Riemann Solvers in C++ using parallel paradigm
 
-$$ \frac{\partial U}{\partial t} + \frac{\partial F(U)}{\partial x} =0 $$
+$$ 
+\frac{\partial U}{\partial t} + \frac{\partial F(U)}{\partial x} = 0 
+$$
 
 where 
 
-$$ U = \begin{bmatrix} u_1 \\ u_2 \\ \vdots \\ u_m\end{bmatrix}, \quad F = \begin{bmatrix} f_1 \\ f_2 \\ \vdots \\ f_m\end{bmatrix} $$
+$$ 
+U = \begin{bmatrix} u_1 \\ u_2 \\ \vdots \\ u_m\end{bmatrix}, \quad F = \begin{bmatrix} f_1 \\ f_2 \\ \vdots \\ f_m\end{bmatrix} 
+$$
 
-![BranchingTree](/fig/shock_wave.svg)
+![Shock Wave](/fig/shock_wave.svg)
 
 
 ### Quantitative Research Intern at BOCOM BBM bank (_2021_ - _2022_)
@@ -31,33 +35,41 @@ $$ U = \begin{bmatrix} u_1 \\ u_2 \\ \vdots \\ u_m\end{bmatrix}, \quad F = \begi
 
 - Creation of scheduled routines in Python and R for data updating and models feeding 
 
-## Computer Skills
-
-- C/C++
-
-- Python
-
-- Julia
-
-- R
 
 ## Projects
 
-- The Generator Project
+### The Generator Project (_C/C++,Python,Julia_)
 
 The Generator Project is a set of Neutron Monte Carlo Branching algorithm for simulation of 
 
+The project today is able to simulate a stochastic process described by the Kolmogorov equation
+
+$$ \frac{\partial g(s,t)}{\partial t} = Q[q(s)-s] \frac{\partial g(s,t)}{\partial s } $$
+
+$$ g(s,0) = s $$
+
 ![BranchingTree](/fig/branching_tree.jpeg)
 
-- Algorithm implementations of Feller's Book
+### Algorithm implementations of Feller's Book (*Julia*)
 
+The project is an implementation in Julia of the many stochastic processes presented in the book of [FELLER, William. An introduction to probability theory and its applications, Volume 1. John Wiley & Sons, 1991.]()
+
+$$U_z(s) = psU_{z+1}(s) + qsU_{z-1}(s) \quad 0 < z < a$$
+$$ U_0(s) = 1 \quad U_a(s) = 0 $$
 
 ![RuinProblem](/fig/RuinProblem.png)
 
+## Awards
+
+ - Finalist at World Nuclear University Olympiad in Vienna
+ - Section Best Work for SIR modeling for COVID-19 outbreak
+ - Honors at SIAC for the work Simplified Models for Casimir Forces
 
 ## Publications
 
+- [Roberty, Nilson C., and Lucas SF de Araujo. "Sir model parameters estimation with covid-19 data." Journal of Advances in Mathematics and Computer Science 36.3 (2021): 97-117](https://www.researchgate.net/profile/Nilson-Roberty/publication/351308624_SIR_Model_Parameters_Estimation_with_COVID-19_Data/links/6091396192851c490fb6bb5f/SIR-Model-Parameters-Estimation-with-COVID-19-Data.pdf)
 
+- [de Abreu, W. V., Maciel, J. M., Martinez, A. S., Gonçalves, A. D. C., & Schmidt, L. (2022). Doppler Broadening of Neutron Cross-Sections Using Kaniadakis Entropy. Entropy, 24(10), 1437.](https://www.mdpi.com/1099-4300/24/10/1437)
 
 ## Languages
 
