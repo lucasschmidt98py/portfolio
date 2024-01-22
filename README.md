@@ -86,6 +86,7 @@ $$ \frac{dS}{dt} = -\beta(t) \frac{S(t)}{N}I(t) $$
 $$ \frac{dI}{dt} = \beta(t) \frac{S(t)}{N}I(t) - \gamma(t)I(t) $$
 
 $$ \frac{dR}{dt} = \gamma(t) I(t) $$
+
 ![](/fig/SIR.png)
 
 ### [Doppler Broadening of Neutron Cross-Sections Using Kaniadakis Entropy](https://www.mdpi.com/1099-4300/24/10/1437)
