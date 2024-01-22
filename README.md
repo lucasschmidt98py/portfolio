@@ -1,3 +1,11 @@
+<script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<script type="text/javascript" async
+    src="mathjax_config.js">
+</script>
+
 # Nuclear Engineer
 
 I am a motivated student of Applied Mathematics at Wrocław University of Science and Technology mostly interesd in applications of probability theory and stochastic calculus in particle transport equations.
