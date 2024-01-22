@@ -63,6 +63,7 @@ $$ g(s,0) = s $$
 The project is an implementation in Julia of the many stochastic processes presented in the book of [FELLER, William. An introduction to probability theory and its applications, Volume 1. John Wiley & Sons, 1991.]()
 
 $$U_z(s) = psU_{z+1}(s) + qsU_{z-1}(s) \quad 0 < z < a$$
+
 $$ U_0(s) = 1 \quad U_a(s) = 0 $$
 
 ![RuinProblem](/fig/RuinProblem.png)
@@ -75,9 +76,21 @@ $$ U_0(s) = 1 \quad U_a(s) = 0 $$
 
 ## Publications
 
-- [Roberty, Nilson C., and Lucas SF de Araujo. "Sir model parameters estimation with covid-19 data." Journal of Advances in Mathematics and Computer Science 36.3 (2021): 97-117](https://www.researchgate.net/profile/Nilson-Roberty/publication/351308624_SIR_Model_Parameters_Estimation_with_COVID-19_Data/links/6091396192851c490fb6bb5f/SIR-Model-Parameters-Estimation-with-COVID-19-Data.pdf)
+### [Sir model parameters estimation with covid-19 data](https://www.researchgate.net/profile/Nilson-Roberty/publication/351308624_SIR_Model_Parameters_Estimation_with_COVID-19_Data/links/6091396192851c490fb6bb5f/SIR-Model-Parameters-Estimation-with-COVID-19-Data.pdf)
 
-- [de Abreu, W. V., Maciel, J. M., Martinez, A. S., Gonçalves, A. D. C., & Schmidt, L. (2022). Doppler Broadening of Neutron Cross-Sections Using Kaniadakis Entropy. Entropy, 24(10), 1437.](https://www.mdpi.com/1099-4300/24/10/1437)
+- Authors: Roberty, Nilson C., and Lucas SF de Araujo
+- Description: The work  introduces the use of the SIR model, a simple mathematical framework with three compartments (Susceptible, Infected, Removed), to describe the phenomenology associated with COVID-19 infection. The model is based on parameters β and γ, representing fundamental mechanisms of reaction and decay in the context of the disease.
+
+$$ \frac{dS}{dt} = -\beta(t) \frac{S(t)}{N}I(t) $$
+
+$$ \frac{dI}{dt} = \beta(t) \frac{S(t)}{N}I(t) - \gamma(t)I(t) $$
+
+$$ \frac{dR}{dt} = \gamma(t) I(t) $$
+![](/fig/SIR.png)
+
+### [Doppler Broadening of Neutron Cross-Sections Using Kaniadakis Entropy](https://www.mdpi.com/1099-4300/24/10/1437)
+
+- Authros: de Abreu, W. V., Maciel, J. M., Martinez, A. S., Gonçalves, A. D. C., & Schmidt, L.
 
 ## Languages
 
