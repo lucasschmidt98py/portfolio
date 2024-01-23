@@ -48,9 +48,12 @@ $$
 
 ### The Generator Project (_C/C++,Python,Julia_)
 
-The Generator Project is a set of Neutron Monte Carlo Branching algorithm for simulation of 
+The Generator Project is a Monte Carlo set of codes that generates neutron data based on branching algorithms. The project makes great use of the [CERN's ROOT framework](https://root.cern.ch/) , both for simulation and processing a high amount of data with high performance in C/C++. Since the project was created in the context of the Branching Processes investigation, the project also has a set of Jupyter-Notebooks in Python/Julia for analysis and data visualization.
 
-The project today is able to simulate a stochastic process described by the Kolmogorov equation
+
+The project today is able to simulate a stochastic process described by the Kolmogorov equations
+
+$$ \frac{\partial g(z,t)}{\partial t} = -Qg(z,t) + Qq[g(z,t)] $$
 
 $$ \frac{\partial g(s,t)}{\partial t} = Q[q(s)-s] \frac{\partial g(s,t)}{\partial s } $$
 
