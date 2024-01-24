@@ -8,7 +8,7 @@
 
 # Nuclear Engineer
 
-I am a motivated student of Applied Mathematics at Wrocław University of Science and Technology mostly interesd in applications of probability theory and stochastic calculus in particle transport equations.
+I am a motivated student of Applied Mathematics at Wrocław University of Science and Technology mostly interesd in applications of probability theory and stochastic calculus in particle transport equations. You can find my C.V [here](English_CV.pdf)!
 
 ## Education
 
@@ -48,10 +48,9 @@ $$
 
 ### The Generator Project (_C/C++,Python,Julia_)
 
-The Generator Project is a Monte Carlo set of codes that generates neutron data based on branching algorithms. The project makes great use of the [CERN's ROOT framework](https://root.cern.ch/) , both for simulation and processing a high amount of data with high performance in C/C++. Since the project was created in the context of the Branching Processes investigation, the project also has a set of Jupyter-Notebooks in Python/Julia for analysis and data visualization.
+The Generator Project is a Monte Carlo set of codes that generates neutron data based on branching algorithms. The project makes great use of the [CERN's ROOT framework](https://root.cern.ch/) , both for simulation and processing a high amount of data with high performance in C/C++. Since the project was created in the context of the Branching Processes investigation, the project also has a set of Jupyter-Notebooks in Python/Julia for analysis and data visualization. 
 
-
-The project today is able to simulate a stochastic process described by the Kolmogorov equations
+The project today is able to simulate a stochastic process described by the Kolmogorov equations as explained by me [here](https://lucasschmidt98py.github.io/SIAC_2022/Capitulo/intro.html).
 
 $$ \frac{\partial g(z,t)}{\partial t} = -Qg(z,t) + Qq[g(z,t)] $$
 
@@ -79,10 +78,35 @@ $$ U_0(s) = 1 \quad U_a(s) = 0 $$
 
 ## Publications
 
+### [The one-point branching process simulation (Undergraduation final work)](http://www.repositorio.poli.ufrj.br/monografias/projpoli10042277.pdf)
+
+- Authors: Roberty, Nilson C., and Lucas SF de Araujo
+- Description: Describing the neutron population inside a nuclear reactor is a difficult task. The
+most common way to do so is to solve the Boltzmann transport equation. Under
+many simplifications, kinetics equations can be derived in order to have only a temporal dynamics of the system. Such approach is made under many simplifications
+and in many cases can lead to difficult analytical and numerical solutions, especially
+in the cases where many groups of precursors and energies are considered. The current work intends to describe the neutron population for a prompt/delayed system
+of particles in an infinite medium in a one-point Branching Process approach. The
+model dynamics is described in terms of the backward and forward-type Kolmogorov
+equations. Population expectation can be computed in terms of derivatives of the
+generation function and this way, criticality conditions can be presented. Also, it
+will be shown that criticality arguments can also be presented in probabilistic ways
+and that the so called extinction probability has an important role in the system
+stability. Also, it is presented a Monte-Carlo system’s simulations by making use
+of the Generator Project, a C++ set of codes which makes great use of CERN’s
+ROOT library.
+
+![Critical Simulation](/fig/critpop.png)
+
 ### [Sir model parameters estimation with covid-19 data](https://www.researchgate.net/profile/Nilson-Roberty/publication/351308624_SIR_Model_Parameters_Estimation_with_COVID-19_Data/links/6091396192851c490fb6bb5f/SIR-Model-Parameters-Estimation-with-COVID-19-Data.pdf)
 
 - Authors: Roberty, Nilson C., and Lucas SF de Araujo
-- Description: The work  introduces the use of the SIR model, a simple mathematical framework with three compartments (Susceptible, Infected, Removed), to describe the phenomenology associated with COVID-19 infection. The model is based on parameters β and γ, representing fundamental mechanisms of reaction and decay in the context of the disease.
+- Description: Based on the SIR model that divides the population into susceptible, infected and removed
+individuals, data about the evolution of the pandemic compiled by the Johns Hopkins University
+Center for Systems Science and Engineering (JHUCSSE) are integrated into the numerical system
+solution. The system parameters Rate of Contact $\beta$, Basic Reproduction Number R0 and Removal Rate $\gamma$, also named Rate of Decay, are determined according to a ridge regression approach
+and a mobile statistical scheme with different averages. Data is automatically downloaded from [here](https://raw.githubusercontent.com/CSSEGISandData/COVID-19). The main Python libraries
+used are Numpy, Pandas, Skit-Learn, Requests and Urllib.
 
 $$ \frac{dS}{dt} = -\beta(t) \frac{S(t)}{N}I(t) $$
 
