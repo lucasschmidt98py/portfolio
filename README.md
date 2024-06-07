@@ -78,7 +78,7 @@ $$ U_0(s) = 1 \quad U_a(s) = 0 $$
 
 ## Publications
 
-### [The neutron one-point branching process simulation](https://www.linkedin.com/safety/go?url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0029549324000396%3Fdgcid%3Dauthor&trk=flagship-messaging-web&messageThreadUrn=urn%3Ali%3AmessagingThread%3A2-MjZjNDMwN2MtYWM4Zi00MTQ4LThmY2MtNjZhNWI1MGI1ODNjXzAxMA%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BIaTQKcHjSV6COENBy0TD1w%3D%3D)
+### [The neutron one-point branching process simulation](https://www.sciencedirect.com/science/article/abs/pii/S0029549324000396)
 
 ### [The one-point branching process simulation (Undergraduation final work)](http://www.repositorio.poli.ufrj.br/monografias/projpoli10042277.pdf)
 
