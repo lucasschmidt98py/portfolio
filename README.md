@@ -83,7 +83,7 @@ $$ U_0(s) = 1 \quad U_a(s) = 0 $$
 ### [The one-point branching process simulation (Undergraduation final work)](http://www.repositorio.poli.ufrj.br/monografias/projpoli10042277.pdf)
 
 
-- Authors: Roberty, Nilson C., and Lucas SF de Araujo
+- Authors: Roberty, Nilson C., and Lucas S.F. de Araujo
 - Description: Describing the neutron population inside a nuclear reactor is a difficult task. The
 most common way to do so is to solve the Boltzmann transport equation. Under
 many simplifications, kinetics equations can be derived in order to have only a temporal dynamics of the system. Such approach is made under many simplifications
@@ -103,7 +103,7 @@ ROOT library.
 
 ### [Sir model parameters estimation with covid-19 data](https://www.researchgate.net/profile/Nilson-Roberty/publication/351308624_SIR_Model_Parameters_Estimation_with_COVID-19_Data/links/6091396192851c490fb6bb5f/SIR-Model-Parameters-Estimation-with-COVID-19-Data.pdf)
 
-- Authors: Roberty, Nilson C., and Lucas SF de Araujo
+- Authors: Roberty, Nilson C., and Lucas S.F. de Araujo
 - Description: Based on the SIR model that divides the population into susceptible, infected and removed
 individuals, data about the evolution of the pandemic compiled by the Johns Hopkins University
 Center for Systems Science and Engineering (JHUCSSE) are integrated into the numerical system
@@ -121,7 +121,7 @@ $$ \frac{dR}{dt} = \gamma(t) I(t) $$
 
 ### [Doppler Broadening of Neutron Cross-Sections Using Kaniadakis Entropy](https://www.mdpi.com/1099-4300/24/10/1437)
 
-- Authros: de Abreu, W. V., Maciel, J. M., Martinez, A. S., Gonçalves, A. D. C., & Schmidt, L.
+- Authros: de Abreu, W. V., Maciel, J. M., Martinez, A. S., Gonçalves, A. D. C., & Lucas S.F. de Araujo.
 
 ## Languages
 
